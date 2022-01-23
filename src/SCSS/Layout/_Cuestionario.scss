@@ -1,0 +1,55 @@
+.cuestionario{
+    margin: 0 auto;
+
+    h1{
+        font-family: $generalFont;
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+    }
+}
+
+.formulario{
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+
+    form{
+        font-family: $generalFont;
+        color: white;
+        font-size: 2.5rem;
+
+        button{
+            margin-top: 2rem;
+
+            &:hover{
+                background-color: $BlueLigth;
+                transition: 1s;
+            }
+        }
+    }
+
+    .campo{
+        display: flex;
+        justify-content: flex-start;
+        gap: 2rem;
+        margin-top: 2rem;
+
+        select{
+            max-width: 25.8rem;
+            border-radius: 1.2rem;
+            height: 3rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        input{
+            max-width: 25rem;
+            margin-left: auto;
+            border-radius: 1.2rem;
+            height: 3rem;
+            border: none;
+            text-align: center;
+        }
+    }
+}
