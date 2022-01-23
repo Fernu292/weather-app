@@ -1,11 +1,11 @@
-import React, { Fragment } from "react";
+import React from "react";
 const Header = () => {
   return (
-    <Fragment>
+    <header>
       <div>
         <h2 className="header-h">Weather App</h2>
       </div>
-    </Fragment>
+    </header>
   );
 };
 
