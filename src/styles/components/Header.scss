@@ -1,0 +1,13 @@
+.hero{
+    &>div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+}
